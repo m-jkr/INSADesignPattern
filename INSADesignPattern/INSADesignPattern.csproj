@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Observables\Class1.cs" />
     <Compile Include="Observables\HelloResponse.cs" />
+    <Compile Include="Observables\Smiley.cs" />
     <Compile Include="Observer\IObservable.cs" />
     <Compile Include="Observer\Observer.cs" />
     <Compile Include="Program.cs" />

@@ -31,6 +31,7 @@ namespace INSADesignPattern.Observer
             if (inputListeners == null || inputListeners.Count == 0)
                 return false;
 
+            // test pour que si un observable est déjà lié à une clé & qu'il ne s'execute pas, alors on renvoie faux
             foreach( IObservable observable in inputListeners)
             {
                 if (!observable.Execute())

@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace INSADesignPattern.Observables
 {
-    class Smileytriste : IObservable
+    class Smiley : IObservable
     {
         public bool Execute()
         {
-            Console.WriteLine("Ce n'est pas très gentil :(");
+            Console.WriteLine(":)");
             return true;
         }
     }
